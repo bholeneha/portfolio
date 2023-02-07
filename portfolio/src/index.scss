@@ -1,0 +1,47 @@
+:root {
+  --cultured: #f9f9f9ff;
+  --charcoal: #234857ff;
+  --feldgrau: #54685dff;
+  --desert-sand: #e3c8b8ff;
+  --gainsboro: #dee4e4ff;
+}
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: var(--charcoal);
+  font-family: 'Montserrat', sans-serif;
+}
+
+// Global Text Element Styling
+h1 {
+  font-size: 5vh;
+  opacity: 75%;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+h3 {
+  font-size: 3vh;
+}
+
+p {
+  margin: 2vmin 0 !important;
+}
+
+// Global Button Styling
+
+button {
+  background-color: var(--feldgrau);
+  color: var(--cultured);
+  padding: 1vmin 2vmin !important;
+  margin: 5vmin 0 !important;
+  border-radius: 5px;
+  opacity: 85%;
+}
+
+button:hover {
+  opacity: 100%;
+}

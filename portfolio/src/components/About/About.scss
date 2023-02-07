@@ -1,0 +1,31 @@
+.About {
+
+    h1 {
+        justify-self: flex-start;
+    }
+
+    .AboutMe {
+        align-self: center;
+        display: flex;
+        width: 75vw;
+
+        .HeadShot img {
+            border-radius: 50%;
+        }
+    }
+
+
+    .AboutText {
+        text-align: center;
+
+
+        div:first-child {
+            height: 100%;
+            padding: 0vh 3vw !important;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+        }
+    }
+
+}
