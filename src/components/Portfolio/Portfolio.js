@@ -31,8 +31,12 @@ export default function Portfolio() {
                     <div>
                         <h3>Resource Vault</h3>
                         <br />
-                        <h4>HTML | CSS | JavaScript</h4>
-                        <p> Description</p>
+                        <h4>Node.js | Express.js | MongoDB | Google OAuth</h4>
+                        <p>
+                            A web application built using MEN Stack with Google OAuth user authentication.
+                            <br /><br />
+                            Resource Vault is a collection of links and resources for a dev student.
+                        </p>
                         <button><a>LIVE</a></button> <button><a>REPO</a></button>
                     </div>
                     <div className='RVImg'>
@@ -47,9 +51,14 @@ export default function Portfolio() {
                     <div>
                         <h3>Leaf It To Me</h3>
                         <br />
-                        <h4>HTML | CSS | JavaScript</h4>
+                        <h4>Node.js | Express.js | React | MongoDB | JWT authentication</h4>
                         <br />
-                        <p>Description</p>
+                        <p>
+                            Leaf It To Me is plant shop web application built using the MERN stack.
+                            <br /><br />
+                            Visitors can browse the app freely and add and remove items from the shopping cart.
+                            Users can sign up, log in and their carts are automatically saved.
+                        </p>
                         <button><a>LIVE</a></button> <button><a>REPO</a></button>
                     </div>
                 </div>
