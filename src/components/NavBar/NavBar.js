@@ -41,7 +41,7 @@ export default function NavBar() {
             <div className="Links Navigation">
                 <Link to='#Home' activeClassName="CurrentPage" activeStyle={{ color: 'red' }} smooth>Home</Link>
                 <Link to='#About' smooth >About</Link>
-                <Link to='#Skills' smooth >Skills</Link>
+                {/* <Link to='#Skills' smooth >Skills</Link> */}
                 <Link to='#Portfolio' smooth >Portfolio</Link>
                 {/* <Link to='#Experience' smooth >Experience</Link> */}
                 <Link to='#Contact' smooth >Contact</Link>

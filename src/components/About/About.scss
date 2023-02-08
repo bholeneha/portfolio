@@ -1,23 +1,23 @@
 .About {
+    overflow: hidden;
+    align-items: center;
 
     h1 {
-        justify-self: flex-start;
+        margin-top: 10vmin !important;
     }
 
     .AboutMe {
-        align-self: center;
         display: flex;
-        width: 75vw;
+        margin-bottom: 10vmin !important;
+        width: 85vw;
 
         .HeadShot img {
-            border-radius: 50%;
+            border-radius: 80%;
         }
     }
 
-
     .AboutText {
         text-align: center;
-
 
         div:first-child {
             height: 100%;
@@ -25,6 +25,13 @@
             display: flex;
             flex-direction: column;
             gap: 2vh;
+            justify-content: center;
+
+            p,
+            h2,
+            h3 {
+                text-align: left;
+            }
         }
     }
 
