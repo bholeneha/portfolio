@@ -34,12 +34,17 @@ p {
 // Global Button Styling
 
 button {
-  background-color: var(--feldgrau);
+  background-color: var(--desert-sand);
   color: var(--cultured);
   padding: 1vmin 2vmin !important;
   margin: 5vmin 0 !important;
   border-radius: 5px;
-  opacity: 85%;
+  // opacity: 85%;
+
+  a {
+    color: var(--charcoal);
+    text-decoration: none;
+  }
 }
 
 button:hover {

@@ -5,12 +5,12 @@ export default function Home() {
     return (
         <section className='Home' id='Home'>
             <div className="Intro">
-                <h1>Hi, I'm <span>Neha!</span></h1>
+                <h1>Hi, I'm Neha!</h1>
                 <h2>A Full Stack Developer</h2>
-                <p>Based in Toronto, Canada</p>
+                <h3>Love seeing code come to life!</h3>
                 <br />
-                <p>Currently looking for an opportunity!</p>
-                <Link to='#About' smooth><button>LEARN MORE</button></Link>
+                <p>Based in Toronto, Canada. Currently looking for an opportunity!</p>
+                <button><Link to='#About' smooth>LEARN MORE</Link></button>
 
             </div>
         </section>
