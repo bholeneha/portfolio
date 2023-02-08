@@ -1,0 +1,12 @@
+.Portfolio {
+    min-height: 85vh;
+    height: auto !important;
+    width: 80vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .Projects {
+        width: 80vw;
+    }
+}
