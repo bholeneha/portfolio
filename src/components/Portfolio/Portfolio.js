@@ -20,8 +20,7 @@ export default function Portfolio() {
                         <p>
                             A web browser game version of the classic Simon game. Built using HTML, CSS & JS.
                             <br /><br />
-                            This game tests one's short term memory. Player needs to remember the sequence of
-                            light and sounds while it gets longer every level.
+                            A fun and engaging web browser game that puts your short-term memory to the test! With each level, the sequence of light and sounds becomes longer, challenging players to remember and repeat the pattern. Developed using HTML, CSS, and JavaScript, this game is sure to provide hours of entertainment while also sharpening your memory skills. Give it a try and see how far you can go!
                         </p>
                         <button><a>LIVE</a></button> <button><a>REPO</a></button>
                     </div>
@@ -35,7 +34,7 @@ export default function Portfolio() {
                         <p>
                             A web application built using MEN Stack with Google OAuth user authentication.
                             <br /><br />
-                            Resource Vault is a collection of links and resources for a dev student.
+                            Resource Vault is a user-friendly web application designed to help students find the resources they need to succeed. Built using MongoDB, Express, and Node.js, it allows users to browse a wide variety of categories to find the right resources for their needs. With the added convenience of Google OAuth login, users can easily log in and save their favorite links for quick and easy access later on. Explore the power of Resource Vault today and take your learning journey to the next level!
                         </p>
                         <button><a>LIVE</a></button> <button><a>REPO</a></button>
                     </div>
@@ -56,8 +55,7 @@ export default function Portfolio() {
                         <p>
                             Leaf It To Me is plant shop web application built using the MERN stack.
                             <br /><br />
-                            Visitors can browse the app freely and add and remove items from the shopping cart.
-                            Users can sign up, log in and their carts are automatically saved.
+                            An online plant shop that provides users with a wide variety of plants to explore and purchase through a shopping cart system. Built using the MERN stack, it offers a user-friendly interface and including secure user authentication through the use of JWT tokens. Users can easily sign up, log in, and have their carts automatically saved, and additional features to be added to enhance the overall user experience. Leaf it to me is a destination for all plant enthusiasts.
                         </p>
                         <button><a>LIVE</a></button> <button><a>REPO</a></button>
                     </div>
