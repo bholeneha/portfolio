@@ -9,7 +9,7 @@ export default function Contact() {
                     <p>I am currently looking for opportunities, </p>
                     <p>I'd love chat about anything dev, learn about your journey or just simply hear from you!</p>
                     <p>Connect with me via email!</p>
-                    <button>CONNECT</button>
+                    <button><a href='mailto:connect@nehabhole.com'>CONNECT</a></button>
                 </div>
             </div>
         </section>
