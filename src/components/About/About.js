@@ -12,15 +12,19 @@ export default function About() {
                 </div>
                 <div className='AboutText' >
                     <div>
-                        <h2>Hi! Thank you for visiting my portfolio!</h2>
+                        <h2>Hi, I'm Neha!</h2>
                         <div className='AboutContent'>
+                            <p>Thank you for visiting my portfolio!</p>
                             <p>
-                                Hey there, I'm Neha! I'm a full stack developer based in Toronto, Ontario. I fell in love with software engineering while tinkering with personal projects on Wordpress, and I haven't looked back since. There's something magical about seeing lines of code come together to create amazing websites and apps, and I love being a part of that process.
-
+                                I'm a full stack developer based in Toronto, Ontario. I fell in love with software engineering while tinkering with personal projects on Wordpress, and I haven't looked back since. There's something magical about seeing lines of code come together to create amazing websites and apps, and I love being a part of that process.
+                            </p>
+                            <p>
                                 When I'm not coding, you can usually find me exploring new hobbies and challenges. I'm currently learning an Indian Classical Dance called Kathak, and I love to experiment with photography. But at the end of the day, web development is my true passion, and I'm always looking for new opportunities to grow and learn.
-
+                            </p>
+                            <p>
                                 If you're interested in collaborating or just want to chat about all things web development, feel free to reach out!
                             </p>
+
                         </div>
                     </div>
                 </div>
