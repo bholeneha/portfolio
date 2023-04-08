@@ -2,17 +2,20 @@
     overflow: hidden;
     align-items: center;
 
-    h1 {
-        margin-top: 10vmin !important;
-    }
-
     .AboutMe {
         display: flex;
-        margin-bottom: 10vmin !important;
         width: 85vw;
 
-        .HeadShot img {
-            border-radius: 80%;
+        .HeadShot {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            img {
+                border-radius: 80%;
+                width: 40vmin;
+            }
         }
     }
 

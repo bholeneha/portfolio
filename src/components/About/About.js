@@ -24,7 +24,7 @@ export default function About() {
                             <p>
                                 If you're interested in collaborating or just want to chat about all things web development, feel free to reach out!
                             </p>
-
+                            {/* Currently Reading, Currently Listening, Currently Learning */}
                         </div>
                     </div>
                 </div>

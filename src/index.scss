@@ -8,6 +8,7 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0 !important;
   padding: 0 !important;
   color: var(--charcoal);
@@ -16,21 +17,21 @@
 
 // Global Text Element Styling
 h1 {
-  font-size: 6vh;
+  font-size: 6vmin;
   opacity: 75%;
 }
 
 h2 {
-  font-size: 5vh;
+  font-size: 5vmin;
 }
 
 h3 {
-  font-size: 4vh;
+  font-size: 4vmin;
 }
 
 p {
   margin: 2vmin 0 !important;
-  font-size: 2vh;
+  font-size: 2vmin;
 }
 
 // Global Button Styling
@@ -51,10 +52,10 @@ button {
   }
 
   &:hover {
-    transition: 1s ease-in-out;
+    transition: 0.35s ease-in-out;
     opacity: 100%;
     border: 1.5px solid var(--charcoal);
-    background-color: var(--desert-sand);
+    background-color: var(--mustard);
 
     a {
       color: var(--cultured)

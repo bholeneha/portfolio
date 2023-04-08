@@ -3,16 +3,36 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 
     h1 {
         color: var(--cultured) !important;
-        opacity: 100%;
+        opacity: 80%;
         justify-self: flex-start;
     }
 
     div {
         height: 70%;
-        width: 80vw;
+        width: 75vw;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+
+
+        figure {
+            figcaption {
+                color: var(--cultured);
+            }
+
+            .icon {
+                font-size: 10vmin !important;
+
+                path {
+                    color: var(--cultured) !important;
+                }
+
+            }
+        }
     }
 }
