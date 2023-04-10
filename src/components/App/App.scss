@@ -34,11 +34,14 @@
             height: 85vh;
             display: flex;
             flex-direction: column;
-            // gap: 2vh;
+            gap: 2vh;
             justify-content: center;
 
             h1 {
                 text-align: center;
+                letter-spacing: 3vmin;
+                opacity: 30%;
+                text-transform: uppercase;
             }
         }
     }

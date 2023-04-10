@@ -6,5 +6,20 @@
     .Intro {
         width: 80vw;
         text-align: center;
+
+        h1 {
+            letter-spacing: 0;
+            opacity: 100;
+            text-transform: none;
+        }
+
+        h2 {
+            opacity: 90%;
+        }
+
+        h3 {
+            opacity: 75%;
+        }
+
     }
 }
