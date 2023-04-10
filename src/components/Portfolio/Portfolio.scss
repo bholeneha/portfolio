@@ -29,11 +29,12 @@
             padding: 5vmin !important;
             transition: 0.2s ease-in-out;
 
+            div>img {
+                width: 500px;
+            }
+
             &:hover {
                 transition: 0.15s ease-in-out;
-
-                // border: 1.25px solid var(--charcoal);
-                // background-color: var(--mustard);
             }
 
             $breakpoint-tablet: 768px;
@@ -43,7 +44,7 @@
                 height: auto !important;
 
                 div>img {
-                    width: 75vw;
+                    width: 70vw;
                 }
 
             }

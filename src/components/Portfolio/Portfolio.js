@@ -13,7 +13,7 @@ export default function Portfolio() {
 
                 <div className='Project ProjectOne'>
                     <div className='chromaImg'>
-                        <img width="500" src={chroma} alt="Chroma Project Screen Shot" loading="lazy" />
+                        <img src={chroma} alt="Chroma Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
                         <h3>chrōma</h3>
@@ -30,7 +30,7 @@ export default function Portfolio() {
 
                 <div className='Project ProjectTwo'>
                     <div className='SimonImg'>
-                        <img width="500" src={simon} alt="Simon Project Screen Shot" loading="lazy" />
+                        <img src={simon} alt="Simon Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
                         <h3> Simon</h3>
@@ -47,7 +47,7 @@ export default function Portfolio() {
 
                 <div className='Project ProjectThree'>
                     <div className='RVImg'>
-                        <img width="500" src={rv} alt="Resource Vault Project Screen Shot" loading="lazy" />
+                        <img src={rv} alt="Resource Vault Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
                         <h3>Resource Vault</h3>
@@ -64,7 +64,7 @@ export default function Portfolio() {
 
                 <div className='Project ProjectFour'>
                     <div className='LeafImg'>
-                        <img width="500" src={leafshop} alt="Leaf It To Me Project Screen Shot" loading="lazy" />
+                        <img src={leafshop} alt="Leaf It To Me Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
                         <h3>Leaf It To Me</h3>
