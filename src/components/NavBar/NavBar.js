@@ -2,6 +2,8 @@ import './NavBar.scss';
 import { HashLink as Link } from 'react-router-hash-link'
 import React, { useState } from 'react';
 // import { FaBars } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 export default function NavBar() {
     // const [stickyClass, setStickyClass] = useState('relative');
@@ -29,8 +31,8 @@ export default function NavBar() {
                 <Link to='#Contact' smooth >Contact</Link>
             </div>
             <div className="Links Social-Media">
-                <a href='https://www.linkedin.com/in/nehabhole/'>LinkedIn</a>
-                <a href='https://github.com/bholeneha'>GitHub</a>
+                <a href='https://www.linkedin.com/in/nehabhole/'><FaLinkedin className='icon' /></a>
+                <a href='https://github.com/bholeneha'><FaGithub className='icon' /></a>
             </div>
         </div >
     )

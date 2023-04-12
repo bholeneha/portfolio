@@ -7,9 +7,9 @@ export default function Home() {
             <div className="Intro">
                 <h1>Hi, I'm Neha!</h1>
                 <h2>A Full Stack Developer</h2>
-                <h3>Love seeing code come to life!</h3>
+                {/* <h3>Love seeing code come to life!</h3> */}
                 <br />
-                <p>Based in Toronto, Canada. Currently looking for an opportunity!</p>
+                <p>Based in Toronto, Canada. <br /><br /> Currently looking for an opportunity!</p>
                 <button><Link to='#About' smooth>LEARN MORE</Link></button>
 
             </div>

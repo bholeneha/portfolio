@@ -16,9 +16,9 @@ export default function Portfolio() {
                         <img src={chroma} alt="Chroma Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
-                        <h3>chrōma</h3>
+                        <h2>chrōma</h2>
                         <br />
-                        <h4> Node.js | Express.js | React | MongoDB </h4>
+                        <h3> Node.js | Express.js | React | MongoDB </h3>
                         <p>
                             chrōma is a cosmetic color reference. Built using the MERN stack.
                             <br /><br />
@@ -33,9 +33,9 @@ export default function Portfolio() {
                         <img src={simon} alt="Simon Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
-                        <h3> Simon</h3>
+                        <h2> Simon</h2>
                         <br />
-                        <h4> HTML | CSS | JavaScript</h4>
+                        <h3> HTML | CSS | JavaScript</h3>
                         <p>
                             A web browser game version of the classic Simon game. Built using HTML, CSS & JS.
                             <br /><br />
@@ -50,9 +50,9 @@ export default function Portfolio() {
                         <img src={rv} alt="Resource Vault Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
-                        <h3>Resource Vault</h3>
+                        <h2>Resource Vault</h2>
                         <br />
-                        <h4>Node.js | Express.js | MongoDB | Google OAuth</h4>
+                        <h3>Node.js | Express.js | MongoDB | Google OAuth</h3>
                         <p>
                             A web application built using MEN Stack with Google OAuth user authentication.
                             <br /><br />
@@ -67,9 +67,9 @@ export default function Portfolio() {
                         <img src={leafshop} alt="Leaf It To Me Project Screen Shot" loading="lazy" />
                     </div>
                     <div>
-                        <h3>Leaf It To Me</h3>
+                        <h2>Leaf It To Me</h2>
                         <br />
-                        <h4>Node.js | Express.js | React | MongoDB | JWT authentication</h4>
+                        <h3>Node.js | Express.js | React | MongoDB | JWT authentication</h3>
                         <br />
                         <p>
                             Leaf It To Me is plant shop web application built using the MERN stack.
@@ -80,6 +80,6 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
