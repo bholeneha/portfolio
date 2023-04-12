@@ -1,7 +1,6 @@
 .Contact {
     align-items: center;
     height: 80vh;
-    // background-color: var(--cultured);
 
     .ContactMe {
         width: 80vw;
@@ -18,6 +17,14 @@
         div {
             text-align: center;
             justify-self: center;
+
+            $breakpoint-tablet: 900px;
+
+            @media (max-width: $breakpoint-tablet) {
+                p {
+                    font-size: 4vmin !important;
+                }
+            }
         }
     }
 }

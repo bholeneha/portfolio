@@ -31,8 +31,8 @@ export default function NavBar() {
                 <Link to='#Contact' smooth >Contact</Link>
             </div>
             <div className=" Social-Media">
-                <a href='https://www.linkedin.com/in/nehabhole/'><FaLinkedin className='icon' /></a>
-                <a href='https://github.com/bholeneha'><FaGithub className='icon' /></a>
+                <a href='https://www.linkedin.com/in/nehabhole/' aria-label="LinkedIn"><FaLinkedin className='icon' /></a>
+                <a href='https://github.com/bholeneha' aria-label="Github"><FaGithub className='icon' /></a>
             </div>
         </div >
     )

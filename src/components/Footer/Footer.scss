@@ -36,6 +36,14 @@
                     }
                 }
             }
+
+            $breakpoint-tablet: 900px;
+
+            @media (max-width: $breakpoint-tablet) {
+                .icon {
+                    font-size: 7vmin !important;
+                }
+            }
         }
     }
 

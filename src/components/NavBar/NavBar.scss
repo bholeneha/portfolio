@@ -16,7 +16,12 @@
 
         &:hover {
             border-bottom: 2px solid var(--mustard);
+        }
 
+        $breakpoint-tablet: 900px;
+
+        @media (max-width: $breakpoint-tablet) {
+            font-size: 3.5vmin;
         }
     }
 
@@ -50,6 +55,14 @@
                         opacity: 100%;
                         color: var(--mustard);
                     }
+                }
+            }
+
+            $breakpoint-tablet: 900px;
+
+            @media (max-width: $breakpoint-tablet) {
+                .icon {
+                    font-size: 7vmin !important;
                 }
             }
         }
