@@ -1,6 +1,6 @@
 .Home {
     align-items: center;
-    background-color: var(--gainsboro);
+    background-color: var(--charcoal);
     justify-content: center;
 
     .Intro {
@@ -11,14 +11,22 @@
             letter-spacing: 0;
             opacity: 100;
             text-transform: none;
+            color: var(--cultured);
+            font-size: 10vmin;
+            ;
         }
 
         h2 {
-            opacity: 90%;
+            color: var(--mustard);
         }
 
         h3 {
             opacity: 75%;
+            color: var(--cultured);
+        }
+
+        p {
+            color: var(--cultured);
         }
 
     }

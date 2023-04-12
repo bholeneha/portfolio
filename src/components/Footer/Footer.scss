@@ -1,11 +1,46 @@
 .Footer {
     background-color: var(--charcoal);
-    height: 10vh;
+    height: 20vh;
+    flex-direction: column;
+
+    .Links {
+        display: flex;
+        gap: 5vmin;
+        height: 10vh;
+        align-items: center;
+    }
+
+    .Social-Media {
+        opacity: 95%;
+        font-size: smaller;
+
+        a {
+            .icon {
+                font-size: 5vmin !important;
+
+                path {
+                    color: var(--cultured);
+                    opacity: 85%;
+                    transition: 0.2s ease-in-out;
+                }
+            }
+
+            &:hover {
+                .icon {
+                    font-size: 5vmin !important;
+
+                    path {
+                        transition: 0.15s ease-in-out;
+                        opacity: 100%;
+                        color: var(--mustard);
+                    }
+                }
+            }
+        }
+    }
 
     p {
         color: var(--cultured);
-        align-self: center;
-        margin-bottom: 2vh !important;
-        font-size: 0.75em;
+        font-size: 0.65em;
     }
 }

@@ -1,5 +1,6 @@
 .NavBar {
     background-color: var(--charcoal);
+    gap: 3vmin !important;
 
     .Links {
         display: flex;
@@ -10,6 +11,13 @@
         text-decoration: none;
         font-size: 2.5vmin;
         color: var(--cultured);
+        border-bottom: 2px solid transparent;
+
+
+        &:hover {
+            border-bottom: 2px solid var(--mustard);
+
+        }
     }
 
     .Navigation {
@@ -19,9 +27,31 @@
     .Social-Media {
         opacity: 95%;
         font-size: smaller;
+        display: flex;
+        gap: 3vmin;
 
-        a>svg {
-            color: var(--cultured);
+        a {
+            .icon {
+                font-size: 5vmin !important;
+
+                path {
+                    color: var(--cultured);
+                    opacity: 85%;
+                    transition: 0.2s ease-in-out;
+                }
+            }
+
+            &:hover {
+                .icon {
+                    font-size: 5vmin !important;
+
+                    path {
+                        transition: 0.15s ease-in-out;
+                        opacity: 100%;
+                        color: var(--mustard);
+                    }
+                }
+            }
         }
     }
 

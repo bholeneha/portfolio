@@ -30,7 +30,7 @@ export default function NavBar() {
                 {/* <Link to='#Experience' smooth >Experience</Link> */}
                 <Link to='#Contact' smooth >Contact</Link>
             </div>
-            <div className="Links Social-Media">
+            <div className=" Social-Media">
                 <a href='https://www.linkedin.com/in/nehabhole/'><FaLinkedin className='icon' /></a>
                 <a href='https://github.com/bholeneha'><FaGithub className='icon' /></a>
             </div>
