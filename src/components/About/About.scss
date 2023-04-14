@@ -6,7 +6,13 @@
 
     .AboutMe {
         display: flex;
-        width: 85vw;
+        width: 80vw;
+
+        .AboutText {
+            p {
+                font-size: 2.1vmin;
+            }
+        }
 
         $breakpoint-tablet: 900px;
 
@@ -34,7 +40,7 @@
 
             img {
                 border-radius: 50%;
-                width: 40vmin;
+                width: 50vmin;
             }
         }
 
