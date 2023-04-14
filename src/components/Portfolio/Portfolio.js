@@ -22,9 +22,11 @@ export default function Portfolio() {
                         <p>
                             chrōma is a cosmetic color reference. Built using the MERN stack.
                             <br /><br />
-                            An app designed to help people with color vision deficiency (CVD) better identify and understand the colors in makeup products. (This was a hackathon project)
+                            An app designed to help people with color vision deficiency (CVD) better identify and understand the colors in makeup products.
+                            <br /><br />
+                            This was a hackathon group project.
                         </p>
-                        <button><a href='https://chroma-cosmetics-color-ref.herokuapp.com/'>LIVE</a></button> <button><a href='https://github.com/cosmetics-ref-elc/cosmetics-color-ref'>REPO</a></button>
+                        <button><a href='https://chroma-cosmetics-color-ref.herokuapp.com/'>LIVE</a></button> <button><a href='https://github.com/cosmetics-ref-elc/cosmetics-color-ref'>REPO</a></button> <button><a href='https://devpost.com/software/chroma-cosmetic-color-reference?ref_content=user-portfolio&ref_feature=in_progress'>DEV POST</a></button>
                     </div>
                 </div>
 
