@@ -51,7 +51,7 @@
                     font-size: 5vmin !important;
 
                     path {
-                        transition: 0.15s ease-in-out;
+                        transition: 0.10s ease-in-out;
                         opacity: 100%;
                         color: var(--mustard);
                     }
@@ -62,14 +62,23 @@
 
             @media (max-width: $breakpoint-tablet) {
                 .icon {
-                    font-size: 7vmin !important;
+                    font-size: 6vmin !important;
+                }
+
+                &:hover {
+                    .icon {
+                        font-size: 6vmin !important;
+                        transform: scale(1.15);
+
+                        path {
+                            transition: 0.10s ease-in-out;
+                            opacity: 100%;
+                            color: var(--mustard);
+                        }
+                    }
                 }
             }
         }
-    }
-
-    @media screen and (max-width: 960px) {
-        transition: 0.8s all ease;
     }
 }
 
