@@ -9,8 +9,12 @@
         width: 80vw;
 
         .AboutText {
+            h2 {
+                font-size: 2.5rem;
+            }
+
             p {
-                font-size: 2.1vmin;
+                font-size: 1.1rem;
             }
         }
 
@@ -37,10 +41,17 @@
             justify-content: center;
             align-items: center;
 
+            div {
+                border: 1px solid var(--charcoal);
+            }
 
+
+            span,
             img {
-                border-radius: 50%;
+                // border-radius: 50%;
                 width: 50vmin;
+                margin-left: -5vmin;
+                margin-top: -5vmin;
             }
         }
 

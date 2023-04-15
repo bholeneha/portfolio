@@ -24,7 +24,7 @@ export default function Portfolio() {
                             <br /><br />
                             An app designed to help people with color vision deficiency (CVD) better identify and understand the colors in makeup products.
                             <br /><br />
-                            This was a hackathon group project.
+                            This was a hackathon group project. I was primarily
                         </p>
                         <button><a href='https://chroma-cosmetics-color-ref.herokuapp.com/'>LIVE</a></button> <button><a href='https://github.com/cosmetics-ref-elc/cosmetics-color-ref'>REPO</a></button> <button><a href='https://devpost.com/software/chroma-cosmetic-color-reference?ref_content=user-portfolio&ref_feature=in_progress'>DEV POST</a></button>
                     </div>

@@ -4,6 +4,59 @@
     flex-direction: column;
     justify-content: space-between;
 
+    .SM-Container {
+        width: 40px;
+        position: fixed;
+        bottom: 0px;
+        left: auto;
+        right: 40px;
+        z-index: 10;
+
+        .Social-Media {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            opacity: 95%;
+            font-size: smaller;
+            gap: 3vmin;
+
+            a {
+                .icon {
+                    font-size: 2.5rem !important;
+
+                    path {
+                        color: var(--mustard);
+                        opacity: 75%;
+                        transition: 0.2s ease-in-out;
+                    }
+                }
+
+                &:hover {
+                    .icon {
+                        font-size: 5vmin !important;
+
+                        path {
+                            transition: 0.10s ease-in-out;
+                            opacity: 100%;
+                            color: var(--mustard);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .Social-Media::after {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 90px;
+            margin: 0px auto;
+            background-color: var(--mustard);
+        }
+    }
+
     nav {
         width: 100vw;
         height: 25vh;

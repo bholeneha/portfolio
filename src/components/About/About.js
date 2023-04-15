@@ -7,7 +7,9 @@ export default function About() {
             <h1>About</h1>
             <div className='AboutMe'>
                 <div className='HeadShot'>
-                    <img src={headshot} alt="Neha Bhole Head Shot" loading="lazy" />
+                    <div>
+                        <span className='Neha'><img src={headshot} alt="Neha Bhole Head Shot" loading="lazy" /></span>
+                    </div>
                 </div>
                 <div className='AboutText' >
                     <div>

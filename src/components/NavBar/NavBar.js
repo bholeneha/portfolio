@@ -23,17 +23,17 @@ export default function NavBar() {
         <div className={navbaractive ? `NavBar active` : `NavBar`}>
             <div className="Links Navigation">
                 {/* <FaBars /> */}
-                <Link to='#Home' activeClassName="CurrentPage" activeStyle={{ color: 'red' }} smooth>Home</Link>
-                <Link to='#About' smooth >About</Link>
+                <Link to='#Home' activeClassName="CurrentPage" activeStyle={{ color: 'red' }} smooth>/home</Link>
+                <Link to='#About' smooth >/about</Link>
                 {/* <Link to='#Skills' smooth >Skills</Link> */}
-                <Link to='#Portfolio' smooth >Portfolio</Link>
+                <Link to='#Portfolio' smooth >/portfolio</Link>
                 {/* <Link to='#Experience' smooth >Experience</Link> */}
-                <Link to='#Contact' smooth >Contact</Link>
+                <Link to='#Contact' smooth >/contact</Link>
             </div>
-            <div className=" Social-Media">
+            {/* <div className=" Social-Media">
                 <a href='https://www.linkedin.com/in/nehabhole/' aria-label="LinkedIn"><FaLinkedin className='icon' /></a>
                 <a href='https://github.com/bholeneha' aria-label="Github"><FaGithub className='icon' /></a>
-            </div>
+            </div> */}
         </div >
     )
 }
