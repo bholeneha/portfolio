@@ -7,13 +7,16 @@
         width: 80vw;
         text-align: center;
 
+        span {
+            font-size: 3.5rem;
+            color: var(--cultured);
+        }
+
         h1 {
             letter-spacing: 0;
             opacity: 100;
             text-transform: none;
             color: var(--cultured);
-            font-size: 10vmin;
-            ;
         }
 
         h2 {
@@ -21,7 +24,6 @@
         }
 
         h3 {
-            opacity: 75%;
             color: var(--cultured);
         }
 

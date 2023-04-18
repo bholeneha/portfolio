@@ -1,4 +1,7 @@
 .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--charcoal);
     height: 20vh;
     flex-direction: column;

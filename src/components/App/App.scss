@@ -26,7 +26,7 @@
                     font-size: 2.5rem !important;
 
                     path {
-                        color: var(--mustard);
+                        color: var(--cultured);
                         opacity: 75%;
                         transition: 0.2s ease-in-out;
                     }
@@ -39,7 +39,7 @@
                         path {
                             transition: 0.10s ease-in-out;
                             opacity: 100%;
-                            color: var(--mustard);
+                            color: var(--cultured);
                         }
                     }
                 }
@@ -53,32 +53,11 @@
             width: 1px;
             height: 90px;
             margin: 0px auto;
-            background-color: var(--mustard);
+            background-color: var(--cultured);
         }
     }
 
-    nav {
-        width: 100vw;
-        height: 25vh;
-    }
-
-    .NavBar,
-    .Footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .NavBar {
-        width: 100vw;
-        height: 20vh;
-        display: flex;
-        flex-direction: column;
-        gap: 2vmin;
-    }
-
     main {
-        margin-top: 15vh;
 
         section {
             align-self: center;
@@ -92,8 +71,12 @@
             h1 {
                 text-align: center;
                 letter-spacing: 3vmin;
-                opacity: 80%;
+                opacity: 25%;
                 text-transform: uppercase;
+            }
+
+            @media (max-width: var(--breakpoint-tablet)) {
+                height: 85vh;
             }
         }
     }

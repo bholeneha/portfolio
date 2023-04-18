@@ -3,6 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 import React, { useState } from 'react';
 // import { FaBars } from 'react-icons/fa'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import resumePDF from '../../assets/files/nehabholeresume.pdf';
 
 
 export default function NavBar() {
@@ -29,6 +30,7 @@ export default function NavBar() {
                 <Link to='#Portfolio' smooth >/portfolio</Link>
                 {/* <Link to='#Experience' smooth >Experience</Link> */}
                 <Link to='#Contact' smooth >/contact</Link>
+                <a href={resumePDF} target='_blank'>/resume</a>
             </div>
             {/* <div className=" Social-Media">
                 <a href='https://www.linkedin.com/in/nehabhole/' aria-label="LinkedIn"><FaLinkedin className='icon' /></a>

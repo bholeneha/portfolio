@@ -5,7 +5,10 @@
   --desert-sand: #e3c8b8ff;
   --gainsboro: #dee4e4ff;
   --mustard: #C69E58;
+  --breakpoint-tablet: 900px;
 }
+
+$breakpoint-tablet: 900px;
 
 * {
   box-sizing: border-box;
@@ -16,31 +19,67 @@
 }
 
 // Global Text Element Styling
+
 h1 {
-  font-size: 6rem;
-  font-weight: 100;
+  font-size: 4.5rem;
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 3.5rem;
+  }
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 4rem;
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 3rem;
+  }
 }
 
 h3 {
-  font-size: 2rem;
-}
-
-p {
-  margin: 2vmin 0 !important;
-  font-size: 1.25rem;
-
-  $breakpoint-tablet: 900px;
+  font-size: 3.75rem;
 
   @media (max-width: $breakpoint-tablet) {
-    font-size: 1.25rem;
+    font-size: 2.75rem;
+  }
+}
+
+h4 {
+  font-size: 3.5rem;
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 2.5rem;
+  }
+}
+
+h5 {
+  font-size: 3.25rem;
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 2.25rem;
+  }
+}
+
+h6 {
+  font-size: 3rem;
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 2rem;
+  }
+}
+
+p,
+a {
+  font-size: 1.25rem;
+  margin: 2vmin 0 !important;
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 1rem;
   }
 }
 
 // Global Button Styling
+
 button {
   background-color: var(--cultured);
   color: var(--charcoal);
@@ -69,9 +108,7 @@ button {
     }
   }
 
-  $breakpoint-tablet: 900px;
-
   @media (max-width: $breakpoint-tablet) {
-    // font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
